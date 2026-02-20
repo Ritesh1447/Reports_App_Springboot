@@ -11,8 +11,8 @@ public class SearchRequest {
 	private String PlanName;
 	private String PlanStatus;
 	private String gender;
-	private LocalDate startDate;
-	private LocalDate endDate;
+	private String startDate;
+	private String endDate;
 	
 
 }

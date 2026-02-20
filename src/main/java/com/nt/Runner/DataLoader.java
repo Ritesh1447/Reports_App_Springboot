@@ -38,9 +38,6 @@ public class DataLoader implements CommandLineRunner{
 		c2.setGender("Male");
 		c2.setPlanName("Cash");
 		c2.setPlanStatus("Denied");
-		c2.setPlanStartDate(LocalDate.now());
-		c2.setPlanEndDate(LocalDate.now().plusMonths(6));
-		c2.setBenefitAmt(5000.00);
 		c2.setDenialReason("Rental income");
 		
 		
@@ -73,9 +70,7 @@ public class DataLoader implements CommandLineRunner{
 		c5.setGender("Male");
 		c5.setPlanName("Food");
 		c5.setPlanStatus("Denied");
-		c5.setPlanStartDate(LocalDate.now());
-		c5.setPlanEndDate(LocalDate.now().plusMonths(6));
-		c5.setBenefitAmt(5000.00);
+		
 		c5.setDenialReason("Property income");
 		
 		
@@ -107,9 +102,6 @@ public class DataLoader implements CommandLineRunner{
 		c8.setGender("Male");
 		c8.setPlanName("Medical");
 		c8.setPlanStatus("Denied");
-		c8.setPlanStartDate(LocalDate.now());
-		c8.setPlanEndDate(LocalDate.now().plusMonths(6));
-		c8.setBenefitAmt(5000.00);
 		c8.setDenialReason("Rental income");
 		
 		
@@ -141,10 +133,7 @@ public class DataLoader implements CommandLineRunner{
 		c12.setGender("Male");
 		c12.setPlanName("Employment");
 		c12.setPlanStatus("Denied");
-		c12.setPlanStartDate(LocalDate.now());
-		c12.setPlanEndDate(LocalDate.now().plusMonths(6));
-		c12.setBenefitAmt(5000.00);
-		c12.setDenialReason("Rental income");
+         c12.setDenialReason("Rental income");
 		
 		
 		CitizenPlan c13=new CitizenPlan();

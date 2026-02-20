@@ -80,6 +80,20 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- Source: https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-jasper</artifactId>
+ </dependency>
+<!-- Source: https://mvnrepository.com/artifact/org.eclipse.jetty/apache-jstl -->
+<!-- Source: https://mvnrepository.com/artifact/org.eclipse.jetty/apache-jstl -->
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>apache-jstl</artifactId>
+    <version>11.0.0</version>
+    <scope>compile</scope>
+</dependency>
+
 	</dependencies>
 
 	<build>
