@@ -15,7 +15,7 @@ public class DataLoader implements CommandLineRunner{
 	
 	@Autowired
 	private CitizenPlanRepository repo;
-  int a=10;
+
 	@Override
 	public void run(String... args) throws Exception {
 		repo.deleteAll();
